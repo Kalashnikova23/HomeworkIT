@@ -39,8 +39,8 @@ public class MyView extends View {
     protected void onDraw(Canvas canvas){
         drawBalls(canvas); 
         // отрисовываем все шарики
-        add(x, vx); 
-        // готовим массивы x и у для следущего кадра
+       // готовим массивы x и у для следущего кадра
+        add(x, vx);
         add(y, vy);
         for (int i = 0; i < N; i++) {
             if (x[i] < 15 || x[i] > this.getWidth()-10){  
