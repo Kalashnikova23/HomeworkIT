@@ -20,7 +20,7 @@ public class MyView extends View {
         fillRandom(x, 0, 500);
         fillRandom(y, 0, 500);
         fillRandom(vx, -3, 3);
-        fillRandom(vy, -3,3);
+        fillRandom(vy, -3, 3);
     }
     Paint paint = new Paint();
     void add(float[] array , float[] values){
